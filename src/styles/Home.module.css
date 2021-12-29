@@ -1,12 +1,15 @@
 .container {
   display: flex;
+  position: relative;
 }
 .category {
-  border-right: 1px solid rgb(36, 36, 36);
+  position: fixed;
+  top: 0;
+  width: 150px;
 }
 
 .category p {
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   cursor: pointer;
 }
 
@@ -16,13 +19,16 @@
 }
 
 .main {
+  border-left: 1px solid black;
   flex: 1;
+  margin-left: 150px;
 }
 
 .active {
   color: wheat;
   background-color: black;
 }
+
 .images {
   /* Prevent vertical gaps */
   line-height: 0;
@@ -34,6 +40,7 @@
   column-count: 4;
   column-gap: 0px;
 }
+
 .images img {
   width: 100%;
 }
@@ -44,6 +51,7 @@
   justify-content: center;
   padding: 2rem;
 }
+
 .button button {
   background-color: black;
   color: wheat;
