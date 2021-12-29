@@ -1,8 +1,10 @@
 ### Construir uma simples aplicação com React e Redux que exibe imagens da Cat API 
 
-[] listar 10 gatos na categoria de “hats” https://docs.thecatapi.com/api-reference/images/images-search 
+[x] Publicar no github
 
-[] listar categorias: https://api.thecatapi.com/v1/categories 
+[x] listar imagem: https://api.thecatapi.com/v1/images/search
+
+[] listar 10 gatos na categoria de “hats” https://api.thecatapi.com/v1/images/search?limit=10&category_ids=1
 
 [] ]exibir as categorias na barra lateral e ao lado, exibe 10  imagens de gatos. 
 
