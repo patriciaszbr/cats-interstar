@@ -4,9 +4,11 @@
 
 [x] listar imagem: https://api.thecatapi.com/v1/images/search
 
-[] listar 10 gatos na categoria de “hats” https://api.thecatapi.com/v1/images/search?limit=10&category_ids=1
+[x] listar 10 gatos na categoria de “hats” https://api.thecatapi.com/v1/images/search?limit=10&category_ids=1
 
-[] ]exibir as categorias na barra lateral e ao lado, exibe 10  imagens de gatos. 
+[x] Renderizar categoria
+
+[] ]exibir as categorias (na barra lateral e ao lado, exibe 10  imagens de gatos. )
 
 [] As categorias devem ser clicáveis para alternar entre elas. 
 

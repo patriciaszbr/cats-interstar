@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+}
+.category {
+  border-right: 1px solid rgb(36, 36, 36);
+}
+
+.category p {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.category p:hover {
+  color: wheat;
+  background-color: black;
+}
+
+.main {
+  flex: 1;
+}
+
+.active {
+  color: wheat;
+  background-color: black;
+}
+.images {
+  /* Prevent vertical gaps */
+  line-height: 0;
+
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0px;
+  -moz-column-count:4;
+  -moz-column-gap:0px;
+  column-count: 4;
+  column-gap: 0px;
+}
+.images img {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.button button {
+  background-color: black;
+  color: wheat;
+  font-size: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
